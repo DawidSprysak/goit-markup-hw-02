@@ -7,30 +7,29 @@
   --subtle-text-color: #8e8f99;
   --accent-color: #e7e9fc;
   --light-color: #f4f4fd;
-  --modal-overlay-color: #2e2f4266;
-  --hero-background-color: #2e2f42b2;
+  --hero-background-color: #2e2f42;
   --white-background-color: #ffffff;
   --modal-background-color: #fcfcfc;
 }
 
 .header {
-  background-color: #ffffff;
+  background-color: var(--white-background-color);
 }
 
 .footer {
-  background-color: #2e2f42;
+  background-color: var(--hero-background-color);
 }
 
 .footer > .paragraph {
-  color: #f4f4fd;
+  color: var(--light-color);
 }
 
 .heading {
-  background-color: #2e2f42;
+  background-color: var(--hero-background-color);
 }
 
 .main-heading {
-  color: #ffffff;
+  color: var(--white-background-color);
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07em;
@@ -39,23 +38,23 @@
 }
 
 .solutions {
-  background-color: #fff;
+  background-color: var(--white-background-color);
 }
 
 .products {
-  background-color: #fff;
+  background-color: var(--white-background-color);
 }
 
 .team {
-  background-color: #f4f4fd;
+  background-color: var(--light-color);
 }
 
 .team-member {
-  background-color: #ffffff;
+  background-color: var(--white-background-color);
 }
 
 .secondary-heading {
-  color: #2e2f42;
+  color: var(--dark-color);
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11em;
@@ -65,7 +64,7 @@
 }
 
 .tertiary-heading {
-  color: #2e2f42;
+  color: var(--dark-color);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2em;
@@ -73,18 +72,18 @@
 }
 
 .paragraph {
-  color: #434455;
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
 }
 
 .portfolio {
-  background-color: #ffffff;
+  background-color: var(--white-background-color);
 }
 
 .link {
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 800;
@@ -95,7 +94,7 @@
 }
 
 .footer > .link {
-  color: #4d5ae5;
+  color: var(--primary-brand-color);
 }
 
 .list {
@@ -103,7 +102,7 @@
 }
 
 .list .link {
-  color: #2e2f42;
+  color: var(--dark-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
@@ -112,17 +111,17 @@
 }
 
 .list .link:hover {
-  color: #404bbf;
+  color: var(--pressed-state-color);
 }
 
 .list .link:focus {
-  color: #404bbf;
+  color: var(--pressed-state-color);
 }
 
 .p-button {
   font-family: 'Roboto', sans-serif;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--primary-brand-color);
+  background-color: var(--light-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
@@ -131,13 +130,13 @@
 }
 
 .p-button:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
 }
 
 .p-button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
 }
 
 .address {
@@ -145,7 +144,7 @@
 }
 
 .address > .list > .link {
-  color: #434455;
+  color: var(--text-color);
   font-size: 16px;
   line-height: 1.5em;
   letter-spacing: 0.02em;
@@ -153,17 +152,17 @@
 }
 
 .address > .list > .link:hover {
-  color: #404bbf;
+  color: var(--pressed-state-color);
 }
 
 .address > .list > .link:focus {
-  color: #404bbf;
+  color: var(--pressed-state-color);
 }
 
 .button {
   font-family: 'Roboto', sans-serif;
-  color: #ffffff;
-  background-color: #4d5ae5;
+  color: var(--white-background-color);
+  background-color: var(--primary-brand-color);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5em;
@@ -172,19 +171,19 @@
 }
 
 .button:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
 }
 
 .button:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--white-background-color);
+  background-color: var(--pressed-state-color);
 }
 
-.logo {
-  color: #2e2f42;
+.logo-span {
+  color: var(--dark-color);
 }
 
-.footer > .logo {
-  color: #f4f4fd;
+.logo-span-two {
+  color: var(--light-color);
 }
