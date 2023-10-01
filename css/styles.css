@@ -70,6 +70,10 @@
   line-height: 1.16em;
 }
 
+.footer > .link {
+  color: #f4f4fd;
+}
+
 .nav-links .link {
   color: #2e2f42;
   font-size: 16px;
